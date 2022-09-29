@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Funcionario(models.Model):
 
@@ -35,5 +33,3 @@ class Funcionario(models.Model):
         null=False,
         blank=False
     )
-
-    objetos = models.Manager()
